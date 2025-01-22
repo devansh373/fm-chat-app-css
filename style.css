@@ -219,11 +219,12 @@ body {
 }
 
 .info {
-  position: absolute;
+  /* position: absolute; */
   top: 270px;
   /* right: 380px; */
   right: 26%;
   width: 360px;
+  transform: translateX(46vw);
 }
 .info h1 {
   color: hsl(271, 36%, 24%);
@@ -255,9 +256,10 @@ body {
   .left-bg {
     left: -50%;
     top: 2%;
+    height: 490px;
   }
   .left-bg::after {
-    left: -4px;
+    /* left: -4px; */
     top: -40%;
   }
   .phone {
@@ -270,8 +272,8 @@ body {
   }
   .info {
     z-index: 10;
-    top: 100vh;
-    left: 10%;
+    
+    transform: translateX(7vw) translateY(25vh);
     padding: 30px 36px;
     text-align: center;
   }
